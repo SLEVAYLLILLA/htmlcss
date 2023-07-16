@@ -1,0 +1,119 @@
+
+
+.my-class{
+    padding: 20px;
+    color:rebeccapurple;
+    background: turquoise;
+}
+
+.feketekeret{
+    border: 10px black;
+}
+
+#my-id{
+    padding: 20px;
+    color:brown;
+    background: lightgreen;
+}
+
+div p{
+
+color:rgb(239, 11, 11);
+
+}
+
+a[title="Microsoft"]{
+    font-size: 200%;
+}
+
+div{
+    border: 1px solid blue;
+    background: peru;
+    margin: 2px;
+    padding: 10px;
+}
+
+div:hover{
+    background-color: aqua;
+}
+
+div:active{
+    background-color: pink;
+}
+
+.my-checkbox:checked{
+    outline: 2px  solid green;
+    outline-offset: 3px;
+}
+
+input[type="text"]:disabled{
+    border: 3px solid rgb(245, 58, 11);
+}
+
+
+input[type="text"]:enabled{
+    border: 3px solid lightgreen;
+}
+
+p:empty{
+    border: 3px solid blue;
+    padding: 10px;
+}
+
+p:first-child{
+    border: 3px solid purple;
+    padding: 10px;
+}
+
+div:first-of-type{
+    border: 3px solid palevioletred;
+    padding:10px;
+}
+
+input:focus{
+    border: 3px solid palevioletred;
+    padding:10px;
+}
+
+input[type="number"]:in-range{
+    border: 3px solid rgb(142, 209, 8);
+}
+
+input[type="number"]:out-of-range{
+    border: 3px solid red;
+}
+
+input[type="email"]:invalid{
+    border: 3px solid red;
+}
+
+input[type="email"]:valid{
+    border: 3px solid green;
+}
+
+div{
+    background: rgb(255, 153, 0);
+    padding:20px;
+    margin:10px;
+}
+
+div:last-child{
+    background: red;
+}
+
+div:last-of-type{
+    background-color: blue;
+}
+
+input:read-only{
+    background: green;
+    padding:20px;
+    margin:10px;
+}
+
+input:read-write{
+    background: green;
+    padding:20px;
+    margin:10px;
+}
+
